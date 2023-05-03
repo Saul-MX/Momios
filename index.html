@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar_Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Novios <i class='bx bx-home-heart'></i></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Hogar <i class='bx bxs-book-heart' ></i></a>
+                </li>
+                <li>
+                    <a href="" class="fotos">Fotos <i class='bx bx-camera'></i></a>
+                </li>
+                <li>
+                    <a href="">Lugares <i class='bx bxs-plane-alt'></i></a>
+                </li>
+                <li>
+                    <a href="">Canciones <i class='bx bx-music'></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="galeria">
+        
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-alemania.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Alemania</h3>
+                <p>"Nuestros corazones son las maletas más importantes en este viaje."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-china.jpg" alt="">
+            <div class="card-content-1">
+                <h3>China</h3>
+                <p>"Las mejores aventuras son aquellas que vivimos juntos."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-corea.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Corea</h3>
+                <p>"Descubrir el mundo contigo es mi plan favorito de fin de semana."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-francia.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Francia</h3>
+                <p>"La mejor parte de este viaje es saber que te tengo a mi lado."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-grecia.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Grecia</h3>
+                <p>"El mejor viaje siempre será aquel que hagamos juntos."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-italia.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Italia</h3>
+                <p>"Nuestro amor es el mapa que nos guía en este viaje."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-rusia.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Rusia</h3>
+                <p>"Juntos, nuestras aventuras nunca terminan."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-singapur.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Singapur</h3>
+                <p>"El paisaje es hermoso, pero aún más lo es estar contigo."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-suiza.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Suiza</h3>
+                <p>"Tu amor me lleva a lugares que nunca imaginé."</p>
+            </div>
+        </div>
+
+        <div class="card-1 card">
+            <i class='bx bx-book-heart'></i>
+            <img src="v-tailandia.jpg" alt="">
+            <div class="card-content-1">
+                <h3>Tailandia</h3>
+                <p>"Contigo al lado, cualquier lugar es un paraíso."</p>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
